@@ -1,0 +1,343 @@
+﻿<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>萌宠洗护中心 - 专业宠物洗护美容</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <nav>
+        <div class="nav-container">
+            <a href="#" class="logo"><span>🐾</span> 萌宠洗护</a>
+            <ul class="nav-links" id="navLinks">
+                <li><a href="#services">服务项目</a></li>
+                <li><a href="#pricing">价格方案</a></li>
+                <li><a href="#gallery">作品展示</a></li>
+                <li><a href="#testimonials">客户评价</a></li>
+                <li><a href="#process">服务流程</a></li>
+                <li><a href="#store">门店位置</a></li><li><a href="#contact">预约咨询</a></li>
+            </ul>
+            <button class="mobile-menu-btn" onclick="document.getElementById('navLinks').classList.toggle('active')">☰</button>
+        </div>
+    </nav>
+
+    <section class="hero" id="home">
+        <div class="container">
+            <div class="hero-content">
+                <h1>给毛孩子<br><span class="highlight">最温柔的</span>呵护</h1>
+                <p>专业宠物洗护美容中心，让每一只毛孩子都能享受SPA级的护理体验。我们用心对待每一个小生命，让它们焕发光彩。</p>
+                <div class="hero-buttons">
+                    <a href="#contact" class="btn btn-primary">📅 立即预约</a>
+                    <a href="#services" class="btn btn-outline">了解更多 →</a>
+                </div>
+            </div>
+            <div class="hero-visual">
+                <div class="hero-image-container">
+                    <span class="emoji-center">🐕</span>
+                    <div class="floating-badge badge-1"><span>⭐</span><span>4.9 分好评</span></div>
+                    <div class="floating-badge badge-2"><span>🏆</span><span>8年专业经验</span></div>
+                    <div class="floating-badge badge-3"><span>💝</span><span>10000+ 服务</span></div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <div class="stats">
+        <div class="container">
+            <div class="stat-item fade-in"><div class="stat-number">10,000+</div><div class="stat-label">服务宠物数量</div></div>
+            <div class="stat-item fade-in"><div class="stat-number">98%</div><div class="stat-label">客户满意度</div></div>
+            <div class="stat-item fade-in"><div class="stat-number">8年</div><div class="stat-label">行业经验</div></div>
+            <div class="stat-item fade-in"><div class="stat-number">15+</div><div class="stat-label">专业美容师</div></div>
+        </div>
+    </div>
+
+    <section class="services" id="services">
+        <div class="section-header">
+            <span class="tag">🛁 专业服务</span>
+            <h2>我们的服务项目</h2>
+            <p>从基础洗护到专业造型，全方位满足毛孩子的需求</p>
+        </div>
+        <div class="services-grid">
+            <div class="service-card fade-in"><div class="service-icon">🛁</div><h3>基础洗护</h3><p>包含洗澡、吹干、梳毛、剪指甲、清洁耳朵等基础护理，让毛孩子清爽干净。</p><div class="service-price"><span class="from">起</span> ¥68</div></div>
+            <div class="service-card fade-in"><div class="service-icon">✂️</div><h3>造型美容</h3><p>专业美容师根据犬种特点和主人喜好，打造专属时尚造型，让宝贝成为焦点。</p><div class="service-price"><span class="from">起</span> ¥128</div></div>
+            <div class="service-card fade-in"><div class="service-icon">🧴</div><h3>深层护理</h3><p>使用天然植物配方的护理产品，深层清洁毛发和皮肤，改善毛发干枯问题。</p><div class="service-price"><span class="from">起</span> ¥98</div></div>
+            <div class="service-card fade-in"><div class="service-icon">🦷</div><h3>牙齿清洁</h3><p>超声波洁牙服务，有效去除牙结石和口腔异味，守护宠物口腔健康。</p><div class="service-price"><span class="from">起</span> ¥158</div></div>
+            <div class="service-card fade-in"><div class="service-icon">🌿</div><h3>驱虫护理</h3><p>专业体外驱虫和药浴服务，有效预防跳蚤、蜱虫等寄生虫，保护宠物健康。</p><div class="service-price"><span class="from">起</span> ¥88</div></div>
+            <div class="service-card fade-in"><div class="service-icon">🎨</div><h3>宠物染色</h3><p>使用安全无毒的植物染料，为宠物打造个性化彩色造型，安全无害。</p><div class="service-price"><span class="from">起</span> ¥188</div></div>
+        </div>
+    </section>
+
+    <section class="pricing" id="pricing">
+        <div class="section-header">
+            <span class="tag">💰 透明定价</span>
+            <h2>选择适合您的方案</h2>
+            <p>灵活的套餐选择，让护理更经济实惠</p>
+        </div>
+        <div class="pricing-grid">
+            <div class="pricing-card fade-in">
+                <div class="plan-icon">🐾</div><h3>基础套餐</h3>
+                <div class="price"><span class="currency">¥</span>198<span class="period">/次</span></div>
+                <ul class="features"><li>基础洗护全套</li><li>剪指甲 & 清耳朵</li><li>基础梳毛</li><li>天然洗浴用品</li></ul>
+                <a href="#contact" class="btn btn-outline" style="width:100%;justify-content:center;">选择套餐</a>
+            </div>
+            <div class="pricing-card popular fade-in">
+                <div class="popular-badge">🔥 最受欢迎</div>
+                <div class="plan-icon">⭐</div><h3>精致套餐</h3>
+                <div class="price"><span class="currency">¥</span>358<span class="period">/次</span></div>
+                <ul class="features"><li>基础洗护全套</li><li>专业造型设计</li><li>深层毛发护理</li><li>牙齿基础清洁</li><li>香水喷雾</li></ul>
+                <a href="#contact" class="btn btn-primary" style="width:100%;justify-content:center;">选择套餐</a>
+            </div>
+            <div class="pricing-card fade-in">
+                <div class="plan-icon">👑</div><h3>尊享套餐</h3>
+                <div class="price"><span class="currency">¥</span>558<span class="period">/次</span></div>
+                <ul class="features"><li>精致套餐全部服务</li><li>SPA水疗护理</li><li>超声波洁牙</li><li>精油按摩</li><li>专属造型师一对一</li></ul>
+                <a href="#contact" class="btn btn-outline" style="width:100%;justify-content:center;">选择套餐</a>
+            </div>
+        </div>
+    </section>
+
+    <section class="carousel-section" id="gallery">
+        <div class="section-header">
+            <span class="tag">🏠 店内环境</span>
+            <h2>高端洗护空间</h2>
+            <p>宽敞明亮的专业空间，让毛孩子享受舒适护理体验</p>
+        </div>
+        <div class="carousel-container">
+            <div class="carousel-wrapper">
+                <div class="carousel-track" id="carouselTrack">
+                    <div class="carousel-slide">
+                        <img src="images/reception.png" alt="前台接待区">
+                        <div class="slide-caption">
+                            <h3>🏠 前台接待区</h3>
+                            <p>大理石前台 · 温馨等候区 · 专业接待服务</p>
+                        </div>
+                    </div>
+                    <div class="carousel-slide">
+                        <img src="images/styling.png" alt="造型美容区">
+                        <div class="slide-caption">
+                            <h3>✂️ 造型美容区</h3>
+                            <p>专业美容台 · 高端洗护产品 · 精致造型设计</p>
+                        </div>
+                    </div>
+                    <div class="carousel-slide">
+                        <img src="images/bathing.png" alt="宠物美容 SPA">
+                        <div class="slide-caption">
+                            <h3>💧 宠物美容 SPA</h3>
+                            <p>智能恒温浴池 · 专业洗护设备 · 舒适洗护体验</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <button class="carousel-btn prev" onclick="moveCarousel(-1)">‹</button>
+            <button class="carousel-btn next" onclick="moveCarousel(1)">›</button>
+            <div class="carousel-dots">
+                <button class="carousel-dot active" onclick="goToSlide(0)"></button>
+                <button class="carousel-dot" onclick="goToSlide(1)"></button>
+                <button class="carousel-dot" onclick="goToSlide(2)"></button>
+            </div>
+            <div class="carousel-indicators">
+                <button class="carousel-indicator active" onclick="goToSlide(0)">💧 洗浴区</button>
+                <button class="carousel-indicator" onclick="goToSlide(1)">✂️ 美容区</button>
+                <button class="carousel-indicator" onclick="goToSlide(2)">🛋️ 等候区</button>
+            </div>
+        </div>
+    </section>
+
+    <section class="testimonials" id="testimonials">
+        <div class="section-header">
+            <span class="tag">💬 客户评价</span>
+            <h2>听听他们怎么说</h2>
+            <p>真实客户反馈，口碑见证品质</p>
+        </div>
+        <div class="testimonials-grid">
+            <div class="testimonial-card fade-in">
+                <div class="testimonial-stars">★★★★★</div>
+                <p class="testimonial-text">"我家豆豆在这里做了一次造型，简直变了一只狗！美容师技术超好，豆豆也很享受，强烈推荐！"</p>
+                <div class="testimonial-author">
+                    <div class="testimonial-avatar">👩</div>
+                    <div><div class="testimonial-name">小美</div><div class="testimonial-pet">泰迪 · 豆豆的妈妈</div></div>
+                </div>
+            </div>
+            <div class="testimonial-card fade-in">
+                <div class="testimonial-stars">★★★★★</div>
+                <p class="testimonial-text">"猫咪平时很怕水，但这里的美容师超级有耐心，用了很久时间温柔地给咪咪洗澡，太感谢了！"</p>
+                <div class="testimonial-author">
+                    <div class="testimonial-avatar">👨</div>
+                    <div><div class="testimonial-name">阿杰</div><div class="testimonial-pet">英短 · 咪咪的爸爸</div></div>
+                </div>
+            </div>
+            <div class="testimonial-card fade-in">
+                <div class="testimonial-stars">★★★★★</div>
+                <p class="testimonial-text">"办了月卡之后每个月都来，环境干净，服务专业，价格也很合理。我家旺财每次都开心得不想走~"</p>
+                <div class="testimonial-author">
+                    <div class="testimonial-avatar">👩</div>
+                    <div><div class="testimonial-name">莉莉</div><div class="testimonial-pet">柯基 · 旺财的妈妈</div></div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="process" id="process">
+        <div class="section-header">
+            <span class="tag">📋 服务流程</span>
+            <h2>简单四步，轻松预约</h2>
+            <p>便捷的服务流程，让您和毛孩子享受无忧体验</p>
+        </div>
+        <div class="process-steps">
+            <div class="process-step fade-in"><div class="step-number">📱</div><h4>在线预约</h4><p>通过网站或电话预约您方便的时间</p></div>
+            <div class="process-step fade-in"><div class="step-number">💬</div><h4>需求沟通</h4><p>美容师了解您的需求和宠物情况</p></div>
+            <div class="process-step fade-in"><div class="step-number">✨</div><h4>专业服务</h4><p>专业团队为毛孩子提供贴心服务</p></div>
+            <div class="process-step fade-in"><div class="step-number">🎉</div><h4>满意交付</h4><p>焕然一新的毛孩子回到您身边</p></div>
+        </div>
+    </section>
+
+    <!-- 门店位置信息 -->
+    <section class="store-location" id="store">
+        <div class="section-header">
+            <span class="tag">📍 门店位置</span>
+            <h2>来找我们玩吧</h2>
+            <p>毛孩子们的快乐基地，期待与您相遇</p>
+        </div>
+        <div class="store-container">
+            <div class="store-info-card">
+                <div class="store-header">
+                    <span class="store-emoji"></span>
+                    <h3>萌宠洗护中心（上海闵行店）</h3>
+                </div>
+                <div class="store-details">
+                    <div class="store-item">
+                        <span class="icon">📍</span>
+                        <div>
+                            <strong>详细地址</strong>
+                            <p>上海市闵行区闵虹路 8 号 中庚漫游城 1 层</p>
+                        </div>
+                    </div>
+                    <div class="store-item">
+                        <span class="icon"></span>
+                        <div>
+                            <strong>交通方式</strong>
+                            <p>地铁 1 号线莲花路站直达，商场 1 号出口即到</p>
+                        </div>
+                    </div>
+                    <div class="store-item">
+                        <span class="icon">️</span>
+                        <div>
+                            <strong>停车信息</strong>
+                            <p>中庚漫游城地下停车场，消费可享免费停车 2 小时</p>
+                        </div>
+                    </div>
+                    <div class="store-item">
+                        <span class="icon">🕐</span>
+                        <div>
+                            <strong>营业时间</strong>
+                            <p>周一至周日 9:00 - 21:00（节假日不休）</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="store-actions">
+                    <a href="https://uri.amap.com/marker?position=121.385,31.145&name=萌宠洗护中心 (上海闵行店)&coordinate=gaode&callnative=1" target="_blank" class="btn btn-primary">🗺️ 导航到这里</a>
+                    <a href="tel:400-888-6666" class="btn btn-outline">📞 电话咨询</a>
+                </div>
+            </div>
+            <div class="map-container">
+                <div class="map-frame">
+                    <img src="images/store-map.png" alt="萌宠洗护中心地图 - 上海市闵行区闵虹路 8 号" style="width: 100%; height: 100%; object-fit: cover; border-radius: 20px;" />
+                </div>
+                <div class="map-decoration">
+                    <span class="floating-paw paw-1">🐾</span>
+                    <span class="floating-paw paw-2">🐶</span>
+                    <span class="floating-paw paw-3">🐱</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="contact" id="contact">
+        <div class="section-header">
+            <span class="tag">📞 预约咨询</span>
+            <h2>立即预约</h2>
+            <p>填写下方表单，我们会尽快与您联系确认预约</p>
+        </div>
+        <div class="contact-grid">
+            <div class="contact-info">
+                <div class="contact-item"><div class="contact-icon">📍</div><div><h4>门店地址</h4><p>北京市朝阳区建国路88号萌宠大厦1层</p></div></div>
+                <div class="contact-item"><div class="contact-icon">📞</div><div><h4>预约电话</h4><p>400-888-6666（9:00-21:00）</p></div></div>
+                <div class="contact-item"><div class="contact-icon">💬</div><div><h4>微信咨询</h4><p>微信号：mengchong_xihu</p></div></div>
+                <div class="contact-item"><div class="contact-icon">🕐</div><div><h4>营业时间</h4><p>周一至周日 9:00 - 21:00（节假日不休）</p></div></div>
+            </div>
+            <form class="contact-form" onsubmit="event.preventDefault(); alert('\uD83C\uDF89 预约成功！我们会尽快与您联系确认。'); event.target.reset();">
+                <div class="form-row">
+                    <input type="text" placeholder="您的姓名" required>
+                    <input type="tel" placeholder="联系电话" required>
+                </div>
+                <div class="form-row">
+                    <input type="text" placeholder="宠物名字 & 品种">
+                    <select required><option value="" disabled selected>选择服务套餐</option><option>基础洗护 - ¥68起</option><option>造型美容 - ¥128起</option><option>基础套餐 - ¥198</option><option>精致套餐 - ¥358</option><option>尊享套餐 - ¥558</option></select>
+                </div>
+                <textarea placeholder="备注信息（宠物的特殊情况、偏好时间等）"></textarea>
+                <button type="submit" class="btn btn-primary">🐾 提交预约</button>
+            </form>
+        </div>
+    </section>
+
+    <footer>
+        <div class="footer-container">
+            <div class="footer-logo"><span>🐾</span> 萌宠洗护中心</div>
+            <p style="color: rgba(255,255,255,0.4); font-size: 0.9rem;">用心呵护每一个毛孩子，让它们健康快乐每一天</p>
+            <div class="footer-links">
+                <a href="#services">服务项目</a><a href="#pricing">价格方案</a><a href="#gallery">作品展示</a><a href="#testimonials">客户评价</a><a href="#contact">预约咨询</a>
+            </div>
+            <div class="footer-copy">© 2026 萌宠洗护中心 · All Rights Reserved · 用爱服务，用心呵护</div>
+        </div>
+    </footer>
+
+    <button class="scroll-top" id="scrollTop" onclick="window.scrollTo({top:0,behavior:'smooth'})">↑</button>
+
+    <script>
+        window.addEventListener('scroll', function() { document.getElementById('scrollTop').classList.toggle('visible', window.scrollY > 500); });
+        var observer = new IntersectionObserver(function(entries) { entries.forEach(function(e) { if (e.isIntersecting) e.target.classList.add('visible'); }); }, { threshold: 0.1 });
+        document.querySelectorAll('.fade-in').forEach(function(el) { observer.observe(el); });
+        document.querySelectorAll('.nav-links a').forEach(function(link) { link.addEventListener('click', function() { document.getElementById('navLinks').classList.remove('active'); }); });
+    
+        // Carousel
+        let currentSlide = 0;
+        const totalSlides = 3;
+        let autoPlayInterval;
+        function moveCarousel(direction) {
+            currentSlide = (currentSlide + direction + totalSlides) % totalSlides;
+            updateCarousel();
+            resetAutoPlay();
+        }
+        function goToSlide(index) {
+            currentSlide = index;
+            updateCarousel();
+            resetAutoPlay();
+        }
+        function updateCarousel() {
+            const track = document.getElementById('carouselTrack');
+            track.style.transform = 'translateX(-' + (currentSlide * 100) + '%)';
+            document.querySelectorAll('.carousel-dot').forEach(function(dot, i) {
+                dot.classList.toggle('active', i === currentSlide);
+            });
+            document.querySelectorAll('.carousel-indicator').forEach(function(ind, i) {
+                ind.classList.toggle('active', i === currentSlide);
+            });
+        }
+        function startAutoPlay() {
+            autoPlayInterval = setInterval(function() { moveCarousel(1); }, 5000);
+        }
+        function resetAutoPlay() {
+            clearInterval(autoPlayInterval);
+            startAutoPlay();
+        }
+        startAutoPlay();</script>
+</body>
+</html>
+
+
+
+
+
+
+

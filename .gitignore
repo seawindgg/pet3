@@ -50,3 +50,6 @@ coverage/
 .eslintcache
 *.tsbuildinfo
 next-env.d.ts
+
+# GitHub credentials (local only, NEVER commit)
+.git-credentials

@@ -53,3 +53,14 @@ next-env.d.ts
 
 # GitHub credentials (local only, NEVER commit)
 .git-credentials
+
+# Test files
+test-*.js
+test-*.html
+
+# Standalone build artifacts (Next.js uses src/ and public/)
+index.html
+styles.css
+
+# Root images dir (images should be in public/images/)
+images/

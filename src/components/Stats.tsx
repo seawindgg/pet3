@@ -7,7 +7,7 @@
           <div className="text-gray-500 text-[0.95rem]">服务宠物数量</div>
         </div>
         <div className="text-center py-6">
-          <div className="text-4xl font-extrabold text-primary mb-2">98%</div>
+          <div className="text-4xl font-extrabold text-primary mb-2">99%</div>
           <div className="text-gray-500 text-[0.95rem]">客户满意度</div>
         </div>
         <div className="text-center py-6">
@@ -22,4 +22,5 @@
     </div>
   );
 }
+
 

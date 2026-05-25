@@ -11,7 +11,7 @@
           <div className="text-gray-500 text-[0.95rem]">客户满意度</div>
         </div>
         <div className="text-center py-6">
-          <div className="text-4xl font-extrabold text-primary mb-2">8 年</div>
+          <div className="text-4xl font-extrabold text-yellow-500 mb-2">8 年</div>
           <div className="text-gray-500 text-[0.95rem]">行业经验</div>
         </div>
         <div className="text-center py-6">
@@ -22,3 +22,4 @@
     </div>
   );
 }
+
